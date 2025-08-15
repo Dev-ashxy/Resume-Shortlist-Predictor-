@@ -1,4 +1,4 @@
-# 📄 Resume Shortlisting Predictor
+## 📜 Resume Shortlisting Predictor
 
 <img width="1140" height="633" alt="Screenshot 2025-08-15 185952" src="https://github.com/user-attachments/assets/996d926d-ae81-4b3f-929e-e27d2d741fcd" />
 
