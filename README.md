@@ -22,8 +22,8 @@ It allows users to **upload their resume** or **paste the text** for instant pre
 ## 🛠️ Tech Stack
 
 - **Frontend & Deployment**: [Streamlit](https://streamlit.io/)  
-- **Backend & ML**: Python, scikit-learn, pandas, numpy  
-- **File Handling**: joblib, nltk  
+- **Backend & ML**: Python, scikit-learn, pandas, numpy, matplotlib, seaborn 
+- **File Handling**: joblib, nltk, pickle 
 - **Styling**: Custom CSS for Streamlit  
 
 ---
