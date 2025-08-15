@@ -29,14 +29,34 @@ It allows users to **upload their resume** or **paste the text** for instant pre
 ---
 
 ## 📂 Project Structure
+
+Resume-Shortlisting-Predictor/
 │
-├── app.py 
-├── requirements.txt 
-├── model.pkl
-├── vectorizer.pkl 
-├── encoder.pkl
-├── README.md
-└── assets
+├── app.py  
+│   Main Streamlit application  
+│
+├── model/  
+│   ├── clf.pkl                 → Trained classification model  
+│   ├── tfidf.pkl               → TF-IDF vectorizer  
+│   ├── encoder.pkl             → Label encoder  
+│
+├── utils/  
+│   ├── preprocessing.py        → Functions for text cleaning and preprocessing  
+│   ├── prediction.py           → Model loading and prediction functions  
+│
+├── assets/  
+│   ├── style.css               → Custom CSS styling for Streamlit app  
+│
+├── data/  
+│   └── sample_resume.txt       → Example resume text for testing  
+│
+├── screenshots/  
+│   └── app_preview.png         → Screenshot for README  
+│
+├── requirements.txt            → Python dependencies  
+├── README.md                   → Project documentation  
+└── LICENSE                     → License file  
+
 
 ---
 
