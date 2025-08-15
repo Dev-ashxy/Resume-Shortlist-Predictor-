@@ -30,13 +30,13 @@ It allows users to **upload their resume** or **paste the text** for instant pre
 
 ## 📂 Project Structure
 │
-├── app.py # Main Streamlit app
-├── requirements.txt # Dependencies for deployment
-├── model.pkl # Trained ML model
-├── vectorizer.pkl # TF-IDF Vectorizer
-├── encoder.pkl # Label Encoder
-├── README.md # Project documentation
-└── assets/ # (Optional) Images, icons, styles
+├── app.py 
+├── requirements.txt 
+├── model.pkl
+├── vectorizer.pkl 
+├── encoder.pkl
+├── README.md
+└── assets
 
 ---
 
